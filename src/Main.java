@@ -22,13 +22,13 @@ public class Main {
             }
             return total;
         } catch (WrongLoginException e) {
-            System.out.println("Логин превышает 20 символов");
+            System.out.println("РџР°СЂРѕР»СЊ РїСЂРµРІС‹С€Р°РµС‚ 20 СЃРёРјРІРѕР»РѕРІ");
             return false;
         } catch (WrongPasswordException e) {
-            System.out.println("Пароли не совпадают");
+            System.out.println("РџР°СЂРѕР»Рё РЅРµ СЃРѕРІРїР°РґР°СЋС‚");
             return false;
         } finally {
-            System.out.println("Проверка завершена");
+            System.out.println("РџСЂРѕРІРµСЂРєР° Р·Р°РІРµСЂС€РµРЅР°");
         }
     }
 
