@@ -22,7 +22,7 @@ public class Main {
             }
             return total;
         } catch (WrongLoginException e) {
-            System.out.println("Пароль превышает 20 символов");
+            System.out.println("Логин превышает 20 символов");
             return false;
         } catch (WrongPasswordException e) {
             System.out.println("Пароли не совпадают");
